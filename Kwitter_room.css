@@ -1,0 +1,32 @@
+body{
+    background-image:  linear-gradient(to Top, teal 0%, purple 100%);
+    float: none;
+    padding: 100px;
+}
+
+.logout_div{
+display: block;
+background-color:rgba(248, 236, 222, 0.849);
+border-radius: 20px;
+width:500px;
+}
+
+.logo{
+    border-radius:100px;
+    width: 200px;
+    height: 200px;
+}
+
+#logout, #add_room{
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 5px;
+margin-top: 10px;
+}
+
+.room_name{
+    background-color: rgb(110, 225, 240);
+    width: 100px;
+    border-radius: 5px;
+margin-top: 10px;
+}
