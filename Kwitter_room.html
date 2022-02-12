@@ -1,0 +1,36 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <center>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 logout_div">
+            <br><br>
+            <img class="logo" src=Kwitter.png>
+            
+            <h1 id="person_name">Welcome</h1>
+            <button id="logout" onclick="logOut()">Log Out</button>
+        <br><br>
+        <label>Add Room:</label>
+        <br>
+<input type="text" id="room_name" class="form-control" placeholder="Room Name">
+<br><br>
+<button id="add_room" onclick="addRoom()">Add Room</button>
+<br>
+<h2 id="rooms">Room Names: </h2>
+<br>
+<div id="output"></div>
+</div>
+</center>
+<script src="Kwitter_room.js"></script>
+</body>
+
+</html>

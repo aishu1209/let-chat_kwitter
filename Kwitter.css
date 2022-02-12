@@ -1,0 +1,24 @@
+body{
+    background-image:  linear-gradient(to Top, teal 0%, purple 100%);
+    float: none;
+    padding: 100px;
+}
+
+.login_div{
+display: block;
+background-color:rgba(248, 236, 222, 0.849);
+border-radius: 20px;
+width:400px;
+}
+
+.logo{
+    border-radius:100px;
+    width: 200px;
+    height: 200px;
+}
+
+#add_user{
+    background-color: darkcyan;
+    width: 100px;
+    border-radius: 5px;
+}
